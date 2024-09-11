@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="return(validate_login())">
+            <h1>Login Information</h1>
+            <div class="field">
+
+                <label for="logemail">
+                    <input type="email" id="logemail" name="email" placeholder="Email">
+                    <br>
+                    <span id="logmailspan"></span>
+                </label>
+            </div>
+
+            <div class="field">
+
+                <label for="logpassword">
+                    <input type="text" id="logpassword" name="password" placeholder="password">
+                    <br>
+                    <span id="logpasswspan"></span>
+                </label>
+            </div>
+
+            <div class="field">
+
+                <label for="log">
+                    <input type="submit" name="save" id="logsave">
+                </label>
+                <hr>
+                <label for="save">
+                    <button type="button" onclick="location.href='index.html';" class="button" id="create">Create new account</button>
+                </label>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

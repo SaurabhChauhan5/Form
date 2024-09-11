@@ -1,0 +1,70 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0a;
+}
+
+body {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background-image: url("bg1.jpeg"); /*-webkit-linear-gradient(bottom,#0250c5,#d43f8d);*/
+  background-size: cover;
+}
+
+.container {
+  margin-top: 50px;
+  width: 330px;
+  background: #ffffffef;
+  border-radius: 5px;
+  text-align: center;
+  height: 60%;
+  padding: 50px 35px 10px 35px;
+}
+
+form {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #fff;
+  width: 100%;
+}
+
+input,
+select,
+textarea,
+button,
+#login {
+  height: auto;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 4px 0 4px 15px;
+  margin-bottom: 8px;
+}
+span {
+  color: red;
+  margin-bottom: 4px;
+}
+#save,
+#create,
+button {
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+}
+
+button,#login,#logsave  {
+  margin-top: 5px;
+  background-color: #42b72a;
+  color: white;
+  border-color: #42b72a;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}

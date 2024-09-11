@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <form onsubmit="return(validate())">
+            <h1>SignUp Form</h1>
+                <div class="field">
+                    <label for="Name">
+                        <select name="salutation" id="salutation">
+                            <option value="select">select</option>
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
+                            <option value="miss">Miss.</option>
+                        </select>
+                        <input type="text" id="Name" name="Name" placeholder="Name">
+                        <br>
+                        <span id="namespan"></span>
+                    </label>
+                </div>
+
+                <div class="field">
+
+                    <label for="email">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <br>
+                        <span id="mailspan"></span>
+                    </label>
+                </div>
+                    
+                <div class="field">
+
+                    <label for="password">
+                        <input type="text" id="password" name="password" placeholder="password">
+                        <br>
+                        <span id="passwspan"></span>
+                    </label>
+                </div>
+
+                <div class="field">
+                    
+                    <label for="dob">
+                        <input type="date" id="dob" name="dob">
+                        <br>
+                        <span id="dobspan"></span>
+                    </label>
+                </div>
+
+                <div class="field">
+
+                    <label for="address">
+                        <textarea rows="2" cols="50" placeholder="enter address here..."></textarea>
+                        <br>
+                        <span id="addspan"></span>
+                    </label>
+                </div>
+
+                <div class="field">
+
+                    <label for="phoneno">
+                        <input type="number" id="phoneno" name="phoneno" placeholder="phoneno">
+                        <br>
+                        <span id="phonespan"></span>
+                    </label>
+                </div>
+
+                <div class="field">
+
+                    <label for="save">
+                        <input type="submit" name="save" id="save">
+                    </label>
+                    <hr>
+                    <label for="create">
+                        <button type="button" onclick="" class="button" id="login">Login</button>
+                    </label>
+                </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
