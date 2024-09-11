@@ -7,13 +7,13 @@ function validate() {
     var d = document.getElementById('phoneno').value;
 
     if (a == "") {
-        document.getElementById('namespan').innerHTML = "name is mandatory";
+        document.getElementById('namespan').innerHTML = "Name is mandatory";
     }
     if (b == "") {
-        document.getElementById('mailspan').innerHTML = "email is mandatory";
+        document.getElementById('mailspan').innerHTML = "Email is mandatory";
     }
     if (c == "") {
-        document.getElementById('passwspan').innerHTML = "password is mandatory";
+        document.getElementById('passwspan').innerHTML = "Password is mandatory";
     }
     if (d == "") {
         document.getElementById('phonespan').innerHTML = "Mobile number is mandatory";
