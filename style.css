@@ -27,9 +27,16 @@ form {
   justify-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   background: #fff;
   width: 100%;
+}
+
+h1{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: lightcoral;
 }
 
 input,
